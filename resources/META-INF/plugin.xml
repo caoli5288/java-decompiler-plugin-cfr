@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.i5mc.idea.decompiler.cfr</id>
+    <name>CFR Decompiler</name>
+    <version>1.0</version>
+    <vendor email="admin@i5mc.com" url="http://www.i5mc.com">i5mc</vendor>
+
+    <description>
+        The plugin decompile .class with CFR.
+        http://www.benf.org/other/cfr/
+    </description>
+
+    <change-notes>
+        - 2017-03-08 INIT
+    </change-notes>
+
+    <idea-version since-build="145.0"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <psi.classFileDecompiler implementation="com.i5mc.idea.decompiler.MyDecompiler"/>
+    </extensions>
+</idea-plugin>
