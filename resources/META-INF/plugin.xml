@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.i5mc.idea.decompiler.cfr</id>
     <name>CFR Decompiler</name>
-    <version>1.0.1</version>
+    <version>1.1</version>
     <vendor email="admin@i5mc.com" url="http://www.i5mc.com">i5mc</vendor>
 
     <description>
@@ -10,6 +10,7 @@
     </description>
 
     <change-notes>
+        - 2017-04-09 UPDATE CFR. FIX INTERFACE STATIC METHOD DECOMPILER
         - 2017-03-13 FIXED #1
         - 2017-03-08 INIT
     </change-notes>
