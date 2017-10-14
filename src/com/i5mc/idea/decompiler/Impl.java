@@ -1,8 +1,8 @@
 package com.i5mc.idea.decompiler;
 
-import com.google.common.collect.ImmutableMap;
 import org.benf.cfr.reader.PluginRunner;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -10,12 +10,14 @@ import java.util.Map;
  */
 public interface Impl {
 
-    Map<String, String> OPTION = ImmutableMap.of("hideutf", "false");
+    Map<String, String> OPT = new HashMap<String, String>() {{
+        put("hideutf", "false");
+    }};
 
     String decompile(String path);
 
     static String fuck(String path) {
-        PluginRunner r = new PluginRunner(OPTION);
+        PluginRunner r = new PluginRunner(OPT);
         r.addJarPath(path);
         return r.getDecompilationFor(path);
     }
@@ -23,7 +25,7 @@ public interface Impl {
     static String clazz(String path) {
         int i = path.lastIndexOf("!/");// filesystem path can contain ! but java can not
         if (i == -1) throw new IllegalArgumentException();
-        PluginRunner r = new PluginRunner(OPTION);
+        PluginRunner r = new PluginRunner(OPT);
         String head = path.substring(0, i);
         r.addJarPath(head);
         String tail = path.substring(i + 2, path.length() - 6);
