@@ -11,6 +11,7 @@ import java.util.Map;
 public interface Impl {
 
     Map<String, String> OPT = new HashMap<String, String>() {{
+        put("comments", "false");
         put("hideutf", "false");
     }};
 
