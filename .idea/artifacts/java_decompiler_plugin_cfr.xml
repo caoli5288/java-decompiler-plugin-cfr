@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/</output-path>
     <root id="archive" name="java-decompiler-plugin-cfr.jar">
       <element id="module-output" name="java-decompiler-plugin-cfr" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/cfr_0_123.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/cfr_0_132.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
