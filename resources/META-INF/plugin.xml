@@ -1,8 +1,8 @@
 <idea-plugin>
     <id>com.i5mc.idea.decompiler.cfr</id>
     <name>CFR Decompiler</name>
-    <version>1.3.2</version>
-    <vendor email="admin@i5mc.com" url="http://www.i5mc.com">i5mc</vendor>
+    <version>1.3.7</version>
+    <vendor email="caoli5288@gmail.com" url="https://github.com/caoli5288">caoli5288</vendor>
 
     <description>
         The plugin decompile .class with CFR.
@@ -10,6 +10,7 @@
     </description>
 
     <change-notes>
+        - 2018-12-12 UPDATE CFR_137. I MISS YOU. MY LOVE.
         - 2018-07-26 UPDATE CFR_132. LIFE IS GETTING WORSE:(
         - 2017-10-14 UPDATE CFR_123. HAPPY BIRTHDAY TO MYSELF:)
         - 2017-07-22 UPDATE CFR_122
