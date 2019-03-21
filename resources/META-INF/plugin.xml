@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.i5mc.idea.decompiler.cfr</id>
     <name>CFR Decompiler</name>
-    <version>1.3.2</version>
+    <version>1.4</version>
     <vendor email="admin@i5mc.com" url="http://www.i5mc.com">i5mc</vendor>
 
     <description>
@@ -10,6 +10,7 @@
     </description>
 
     <change-notes>
+        - 2019-03-21 UPDATE CFR-0.140. LIFE IS ALWAYS SO HARD.
         - 2018-07-26 UPDATE CFR_132. LIFE IS GETTING WORSE:(
         - 2017-10-14 UPDATE CFR_123. HAPPY BIRTHDAY TO MYSELF:)
         - 2017-07-22 UPDATE CFR_122
