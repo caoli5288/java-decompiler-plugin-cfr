@@ -1,0 +1,35 @@
+plugins {
+    id "org.jetbrains.intellij" version "0.4.16"
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://www.jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.leibnitz27:cfr:0.149'
+}
+
+intellij {
+    plugins "java"
+}
+
+patchPluginXml {
+    changeNotes(file("change-notes.html").text)
+}
+
+compileJava {
+    dependsOn(clean)
+}
+
+jar {
+    finalizedBy(shadowJar)
+}

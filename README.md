@@ -1,5 +1,5 @@
 # java-decompiler-plugin-cfr
-基于[CFR](http://www.benf.org/other/cfr/)后端的，用于[IntelliJ IDEA](https://www.jetbrains.com/idea/)的反编译插件。
+基于[CFR](https://github.com/leibnitz27/cfr)后端的，用于[IntelliJ IDEA](https://www.jetbrains.com/idea/)的反编译插件。
 
 ## 已知的问题
 与文本编辑器的Parser系统似乎有些不兼容，右下角会有报错提示，但是可以不用理会。

@@ -1,24 +1,13 @@
 <idea-plugin>
     <id>com.i5mc.idea.decompiler.cfr</id>
     <name>CFR Decompiler</name>
-    <version>1.4.4</version>
+    <version>1.5</version>
     <vendor email="admin@i5mc.com" url="http://www.i5mc.com">i5mc</vendor>
 
     <description>
         The plugin decompile .class with CFR.
         http://www.benf.org/other/cfr/
     </description>
-
-    <change-notes>
-        - 2019-05-16 UPDATE CFR-0.144. YOU ARE (NOT) HAPPY.
-        - 2019-03-21 UPDATE CFR-0.140. LIFE IS ALWAYS SO HARD.
-        - 2018-07-26 UPDATE CFR_132. LIFE IS GETTING WORSE:(
-        - 2017-10-14 UPDATE CFR_123. HAPPY BIRTHDAY TO MYSELF:)
-        - 2017-07-22 UPDATE CFR_122
-        - 2017-04-09 UPDATE CFR. FIX INTERFACE STATIC METHOD DECOMPILER
-        - 2017-03-13 FIXED #1
-        - 2017-03-08 INIT
-    </change-notes>
 
     <idea-version since-build="145.0"/>
 

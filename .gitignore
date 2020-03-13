@@ -1,3 +1,7 @@
 /out
 /.idea
 /java-decompiler-plugin-cfr.iml
+/java-decompiler-plugin-cfr.ipr
+/java-decompiler-plugin-cfr.iws
+/.gradle
+/build
